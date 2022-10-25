@@ -1,0 +1,87 @@
+@media (max-width: 1250px) {
+    .search_form_scroll {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .textright {
+        text-align: center;
+        text-decoration: none;
+        margin-top: auto;
+        margin-left: -2em;
+    }
+    .navbarbg {
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+    .navbarbg h1 {
+        margin: 0;
+    }
+    .navbarbg .infocard {
+        margin: 0;
+    }
+    .titlelink {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbarbg {
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+    .titlelink {
+        margin-top: 0em;
+    }
+    .search_b {
+        grid-template-columns: unset
+    }
+    .title_t {
+        text-align: left;
+    }
+    .row {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .footerlink li {
+        margin-top: 1em;
+    }
+    .navbarbg {
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+    .navbarbg h2 {
+        margin: 0.3em 0 0 3em;
+    }
+    .menulink {
+        margin: 1em 0 0 2em;
+    }
+}
+
+@media (max-width: 476px) {
+    .greenbar font {
+        color: #4F2D16;
+        padding: 0em;
+        line-height: 0.8em;
+    }
+    .menulink {
+        margin: 0 0 0 0;
+    }
+    .btn_01 {
+        background-image: url(../images/btn_on.png);
+        height: 10.2em;
+        width: 8.5em;
+        z-index: 2;
+        background-size: cover;
+        margin: 0 0 1em 1em;
+        text-align: center;
+    }
+}
